@@ -1,0 +1,169 @@
+@media screen and (min-width:10rem) {
+    html {
+        font-size: 75px !important;
+        
+    }
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    margin: 0 auto ;
+    max-width: 750px;
+    min-width: 320px;
+    background-color: white;
+}
+.search-content {
+    display: flex;
+    margin: 0 auto;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    width: 10rem;
+    height: 1.1733rem;
+    background: url(https://oss.suning.com/adpp/creative_kit/material/picture/20220126-ed35e4f8c2ca4c82997c73223a36f61ae9b7d53ae7f347ed.jpg?format=_is_1242w_610h);
+}
+.search-content .classfy {
+    width: .5867rem ;
+    height:  .9333rem;
+    background: url(https://image3.suning.cn/uimg/cms/img/157199320847433454.png);
+    background-size: .5867rem .9333rem;
+    /* background-color: pink; */
+    margin: .1333rem .32rem;
+}
+.search-content .search {
+    flex: 1;
+    width: 100%;
+    line-height: .9333rem;
+}
+.search-content .login {
+    position: relative;
+   padding-top: .3125rem;
+    width: 75px;
+    height: .9333rem;
+    margin:.1333rem;
+    /* background-color: blue; */
+    color: white;
+    text-align: center;
+    line-height: .9333rem;
+    font-size: .2133rem;
+}
+.login::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    content: '';
+    background: url(https://image1.suning.cn/uimg/cms/img/157199321817918653.png);
+    background-size: 44px ;
+    
+    width: 38px;
+    height: 44px;
+}
+.search-content .search input {
+    border-radius: .4667rem;
+    background-color: rgba(255, 255, 255, .3);
+    border: .0133rem solid transparent;
+    height: .8rem;
+    width: 100%;
+    padding-left: .6667rem;
+    color: white;
+    font-size: .2133rem;
+   
+}
+.banner {
+    position: relative;
+    width: 10rem ;
+    height: 3.2rem;
+    background: url(https://image1.suning.cn/uimg/cms/img/164335273219848414.jpg);
+    background-size: 10rem 3.2rem;
+}
+
+.banner .banner-php {
+    position: absolute;
+    top: -0.0533rem;
+    right: .0667rem;
+    height: 3.08rem;
+    border-radius: .1333rem;
+    width: 9.3333rem;
+    margin: .1333rem .2667rem;
+    background: url(https://oss.suning.com/adpp/creative_kit/material/picture/20200928-779825a31af245dbb50c38ff0057f77e5cb8a61f4baa4853.jpg?format=_is_1242w_610h) no-repeat;
+    background-size: 9.4133rem 3.12rem ;
+    /* background-color: red; */
+}
+.banner-php ul {
+   margin-left: 3.12rem;
+}
+.banner-php ul li {
+    float: left;
+    margin-top: 2.3333rem;
+    margin-left: .1333rem;
+    width: .1333rem;
+    height: .1333rem;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+.ad a img  {
+    width: 10rem;
+    
+}
+.ui ul {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.ui {
+    border-radius: .1067rem;
+    width: 10rem;
+    height: 3.4533rem;
+    background-color: rgb(231, 228, 228);
+}
+.ui ul li {
+    float: left;
+    margin: .4533rem;
+    /* flex: 20%; */
+    /* margin-top: .1333rem; */
+    /* min-width: 750px; */
+}
+.mar-top-0 {
+    margin-top: 0 !important;
+}
+.ui ul li a {
+    display: block;
+    width: .8rem;
+    height: .9867rem;
+}
+.ui ul li img {
+    display: block;
+    width: .8rem;
+    /* height: .9867rem; */
+}
+.ui ul li span {
+    display: block;
+    color: #666 ;
+    font-size: .1867rem;
+    margin-top: 0;
+    margin-left: .0267rem;
+}
+
+.miaosha {
+    margin-top: .2667rem;
+    display: flex;
+    width: 10rem;
+    height: 6.4667rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.miaosha .box1 {
+    flex: 40%;
+    width: 4.68rem;
+    height: 3.3733rem;
+    border: 1px solid blue;
+    background-color: red;
+}
+.miaosha .box1 h3 {
+
+}
